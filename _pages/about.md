@@ -31,8 +31,8 @@ I am a final-year PhD student in Computing Science at the University of Aberdeen
 - **Oct 2025**: Presented my complete PhD work at the Young Researchers in Natural Language Generation, Hanoi, Vietnam.
 - **Jun 2025**: Presented my Turing internship work (*Unlocking and Codifying Free Text into Structured Insights for Justice Outcomes*) at the Data First Showcase, London.
 - **Nov 2024**: Started a part-time Turing Internship at the UK Ministry of Justice.
-- **Jul 2024**: Presented my research work at the SICSA Conference, Aberdeen, and served as a Student Volunteer
-- **Jun 2024**: Presented my research work at NAACL main conference, Mexico, and served as a Student Volunteer
+- **Jul 2024**: Presented my research work at the SICSA Conference, Aberdeen, and served as a Student Volunteer.
+- **Jun 2024**: Presented my research work at NAACL main conference, Mexico, and served as a Student Volunteer.
 - **Oct 2022 – Jul 2024**: Teaching Assistant for MSc AI courses: *Natural Language Generation*, *Data Mining with Deep Learning*, and *Evaluation of AI Systems*.
 - **Sep 2023 – Oct 2023**: Built a Retrieval-Augmented Generation (RAG) proof-of-concept with a development team and presented it to an industry client.
 - **Dec 2022**: Presented my research work at the 2nd Workshop on Generation, Evaluation, and Metrics (GEM), Abu Dhabi.
