@@ -1,56 +1,50 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Barkavi Sundararajan"
 author_profile: true
+layout: single
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## About
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a final-year PhD student in Computing Science at the University of Aberdeen under the supervision of Dr. Yaji Sripada and Prof. Ehud Reiter. My research focuses on improving factual accuracy (how faithfully the summaries are grounded in the input data) and reducing hallucinations in data-to-text generation by analysing input quality and structure. I also refined a manual error annotation protocol for factual errors and am translating it into a structured, semi-automated evaluation framework to complement human evaluation.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Publications
+- **Barkavi Sundararajan**, Somayajulu Sripada, and Ehud Reiter (2025).
+  *Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play.* Proceedings of the 18th International Natural Language Generation Conference (INLG), Hanoi, Vietnam, October 2025 - <a href="https://aclanthology.org/2025.inlg-main.46.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- **Barkavi Sundararajan**, Somayajulu Sripada, and Ehud Reiter (2024). 
+  *Improving Factual Accuracy of Neural Table-to-Text Output by Addressing Input Problems in ToTTo.* In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL main), Mexico - <a href="https://aclanthology.org/2024.naacl-long.408.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+- Craig Thomson, Ehud Reiter, and **Barkavi Sundararajan** (2023). *Evaluating factual accuracy in complex data-to-text*. *Computer Speech &amp; Language* (CSL) - <a href="https://www.sciencedirect.com/science/article/abs/pii/S0885230823000013" target="_blank" rel="noopener noreferrer">[PDF]</a>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- **Barkavi Sundararajan**, Somayajulu Sripada, and Ehud Reiter. (2022) *Error Analysis of ToTTo Table-to-Text Neural NLG Models.* Proceedings of the Second Workshop on Natural Language Generation, Evaluation, and Metrics (GEM), Abu Dhabi) - <a href="https://aclanthology.org/2022.gem-1.43/" target="_blank" rel="noopener noreferrer">[PDF]</a>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## News and Updates
 
-**Markdown generator**
+- **Dec 2025**: Awarded Scottish Informatics and Computer Science Alliance (SICSA) PhD Travel Funding.
+- **Nov 2025**: Presented my <a href="https://barkavisj.github.io/nba-input-matters/" target="_blank" rel="noopener noreferrer">paper </a> at the INLG Conference, Hanoi, Vietnam.
+- **Oct 2025**: Presented my complete PhD work at the Young Researchers in Natural Language Generation, Hanoi, Vietnam.
+- **Jun 2025**: Presented my Turing internship work (*Unlocking and Codifying Free Text into Structured Insights for Justice Outcomes*) at the Data First Showcase, London.
+- **Nov 2024**: Started a part-time Turing Internship at the UK Ministry of Justice.
+- **Jul 2024**: Presented my research work at the SICSA Conference, Aberdeen, and served as a Student Volunteer
+- **Jun 2024**: Presented my research work at NAACL main conference, Mexico, and served as a Student Volunteer
+- **Oct 2022 – Jul 2024**: Teaching Assistant for MSc AI courses: *Natural Language Generation*, *Data Mining with Deep Learning*, and *Evaluation of AI Systems*.
+- **Sep – Oct 2023**: Built a Retrieval-Augmented Generation (RAG) proof-of-concept with a development team and presented it to an industry client.
+- **Dec 2022**: Presented my research work at the 2nd Workshop on Generation, Evaluation, and Metrics (GEM), Abu Dhabi.
+- **Nov 2020**: Started as a Full Stack Software Developer Intern at James Fisher AIS, Aberdeen.
+- **Aug 2011 – Dec 2019**: Worked on UK and European B2B telecom projects at Plintron Mobility Solutions, Chennai, India. Delivered technical solution proposals, supported GDPR and other EU regulatory compliance, and developed strong telecom product expertise; left the role to pursue postgraduate studies in Computing Science.
+- **March 2009**: Presented *Pattern analysis using Neural Networks with Back Propagation algorithm for recognising fingerprints and handwritten digits* in National level Technical Symposium, Chennai.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<a class="btn"
+   href="/files/barkavi_cv.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+   View my CV here
+</a>
