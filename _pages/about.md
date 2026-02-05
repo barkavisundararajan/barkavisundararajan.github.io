@@ -26,19 +26,20 @@ I am a final-year PhD student in Computing Science at the University of Aberdeen
 
 ## News and Updates
 
-- **Dec 2025**: Awarded Scottish Informatics and Computer Science Alliance (SICSA) PhD Travel Funding.
-- **Nov 2025**: Presented my <a href="https://barkavisj.github.io/nba-input-matters/" target="_blank" rel="noopener noreferrer">paper </a> at the INLG Conference, Hanoi, Vietnam.
-- **Oct 2025**: Presented my complete PhD work at the Young Researchers in Natural Language Generation, Hanoi, Vietnam.
-- **Jun 2025**: Presented my Turing internship work (*Unlocking and Codifying Free Text into Structured Insights for Justice Outcomes*) at the Data First Showcase, London.
-- **Nov 2024**: Started a part-time Turing Internship at the UK Ministry of Justice.
-- **Jul 2024**: Presented my research work at the SICSA Conference, Aberdeen, and served as a Student Volunteer.
-- **Jun 2024**: Presented my research work at NAACL main conference, Mexico, and served as a Student Volunteer.
+- **Dec 2025**: Awarded **Scottish Informatics and Computer Science Alliance (SICSA)** PhD Travel Funding.
+- **Nov 2025**: Presented my <a href="https://barkavisj.github.io/nba-input-matters/" target="_blank" rel="noopener noreferrer">paper</a> at the **INLG 2025 Conference**, Hanoi, Vietnam.
+- **Oct 2025**: Presented an overview of my doctoral research at the *Young Researchers in Natural Language Generation (YNLG) Workshop*, Hanoi, Vietnam.
+- **Jun 2025**: Presented my Turing internship work, **Unlocking and Codifying Free Text into Structured Insights for Justice Outcomes**, at the Data First Showcase, London.
+- **Nov 2024**: Started a part-time <a href="https://www.turing.ac.uk/collaborate-turing/internships" target="_blank" rel="noopener noreferrer">Data Science Turing Internship</a> at the *UK Ministry of Justice*.
+- **Jul 2024**: Presented my research work at the **SICSA 2024 Conference**, Aberdeen, and served as a Student Volunteer.
+- **Jun 2024**: Presented my research work at the **NAACL 2024 main conference**, Mexico, and served as a Student Volunteer.
 - **Oct 2022 – Jul 2024**: Teaching Assistant for MSc AI courses: *Natural Language Generation*, *Data Mining with Deep Learning*, and *Evaluation of AI Systems*.
-- **Sep 2023 – Oct 2023**: Built a Retrieval-Augmented Generation (RAG) proof-of-concept with a development team and presented it to an industry client.
-- **Dec 2022**: Presented my research work at the 2nd Workshop on Generation, Evaluation, and Metrics (GEM), Abu Dhabi.
-- **Nov 2020**: Started as a Full Stack Software Developer Intern at James Fisher AIS, Aberdeen.
-- **Aug 2011 – Dec 2019**: Worked on UK and European B2B telecom projects at Plintron Mobility Solutions, Chennai, India. Delivered technical solution proposals, supported GDPR and other EU regulatory compliance, and developed strong telecom product expertise; left the role to pursue postgraduate studies in Computing Science.
-- **March 2009**: Presented *Pattern analysis using Neural Networks with Back Propagation algorithm for recognising fingerprints and handwritten digits* in National level Technical Symposium, Chennai.
+- **Sep 2023 – Oct 2023**: Built a Retrieval-Augmented Generation (RAG) proof-of-concept with a development team and presented it to an industry client (Bray Oil & Gas).
+- **Dec 2022**: Presented my research work at the second Workshop on **Generation, Evaluation, and Metrics (GEM)**, Abu Dhabi.
+- **Nov 2020 – Apr 2021**: Worked as a *Full Stack Software Developer Intern* at James Fisher AIS, Aberdeen.
+- **Jan 2021**: Graduated with a **Master of Science in Information Technology** from the University of Aberdeen, with distinction.
+- **Aug 2011 – Dec 2019**: Worked on *UK and European B2B telecom projects* at Plintron Mobility Solutions, Chennai, India. Delivered technical solution proposals, supported GDPR and other EU regulatory compliance, and developed strong telecom product expertise; left the role to pursue postgraduate studies in Computing Science.
+- **Mar 2009**: Presented **Pattern analysis using Neural Networks with Back Propagation algorithm for recognising fingerprints and handwritten digits** in National level Technical Symposium, Chennai.
 
 
 
